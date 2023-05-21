@@ -1,0 +1,90 @@
+:root{
+    --color-main: #09144C;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-text: #434343;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* PHONE */
+@media (max-width: 70em) {
+    div> .container{
+        margin: 80px auto auto;
+    }
+
+    div > .header{
+        height: 50px;
+    }
+
+    div > .header_name {
+        font-size: 20px;
+
+    }
+    
+    header > .header_items{
+        margin-left: 20px;
+    }
+
+    div > .header_logo{
+        height: 30px;
+    }
+
+    div > .header_address{
+        display: none;
+        font-size: 10px;
+    }
+
+    div > .bgd_link_list {
+        height: 40px;
+        bottom: -390px;
+
+    }
+
+    div > .container_frame {
+        width: 350px;
+        flex-direction: column;
+        /* top: 70px;
+        left: 30px; */
+        height: 600px;
+    }
+    div > .content_fullName {
+        font-size: 30px;
+        margin: 10px auto 30px;
+    }
+    div > .content_fullName::after{
+        left: 70px;
+        bottom: -10px;
+    }
+
+    div > .container_frame_bgd{
+        height: 250px;
+        width: 350px;
+    }
+
+    div > .content_positon{
+        font-size: 20px;
+        letter-spacing: 8px;
+        bottom: 8px;
+    }
+
+    div > .container_frame_avatar{
+        height: 250px;
+        width: 350px;
+    }
+    div > .content_infor_list{
+        font-size: 15px;
+    }
+    ul > .content_infor_item{
+        margin-bottom: 10px;
+    }
+}
